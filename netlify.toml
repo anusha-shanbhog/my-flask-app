@@ -1,0 +1,16 @@
+[build]
+  # The command Netlify uses to build your project
+  command = "pip install -r requirements.txt"
+
+  # The directory where your functions are located
+  functions = "netlify/functions"  # Specify the folder containing serverless functions
+
+  # Optional: specify the directory where your static assets (if any) are located
+  publish = "."
+
+[functions]
+  # Optional: You can specify the function runtime version here if necessary
+  # runtime = "python3.8"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
