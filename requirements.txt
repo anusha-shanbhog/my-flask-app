@@ -1,0 +1,5 @@
+Flask==2.3.2
+requests==2.31.0
+Pillow==9.5.0
+azure-ai-formrecognizer==3.2.0b4
+azure-core==1.29.0
